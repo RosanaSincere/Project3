@@ -24,15 +24,23 @@
 			TR Physics 11:25-1:05pm">
 		<p> Email me at <em>rsincere@hawk.iit.edu</em></p>
 		<p> Call me at <em>468 5931</em> between the hours of 8am and 9pm</p>
-		</div>
-		<div id="map" style="width:100%;height:400px;"> <p> Where I'm primarily located:</p>
+		</div><p> Where I'm primarily located:</p>
+		<div id="Miami" style="width:100%;height:400px;"> </div><p> </p>
+		<div id="Chicago" style="width:100%;height:400px;"></div>
 		<script>
 			function myMap() {
-			var mapProp= {
+			var mapMiami= {
   			center:new google.maps.LatLng(25,-80),
    			 zoom:5,
+			 mapTypeId: google.maps.MapTypeId.SATELLITE
 			};
-			var map=new google.maps.Map(document.getElementById("map"),mapProp);
+			var mapChicago= {
+			center:new google.maps.LatLng(25,-80),
+			zoom:6,
+			mapTypeId: google.maps.MapTypeId.SATELLITE
+			};
+			var mapM=new google.maps.Map(document.getElementById("Miami"),mapMiami);
+			var mapC=new google.maps.Map(document.getElementById("Chicago"),mapChicago);
 			}
 		</script>
 		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDJHqM95J8cSJBC9UJriQfRssT5n4pDsNo&callback=myMap"></script>
