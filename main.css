@@ -20,7 +20,7 @@ ul {
 }
 
 li {
-    	float: left;
+    	float: center;
     	list-style-type: none;
 	display: inline-block;
 	text-align: center;
