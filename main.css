@@ -11,7 +11,8 @@ h1 {
 ul {
     list-style-type: none;
     margin: 0;
-    padding: 33%;
+    padding-left: 33%;
+    padding-right: 33%;
     overflow: hidden;
     border: 1px solid #e7e7e7;
     background-color: #17202A;
@@ -58,10 +59,6 @@ a:hover {
 .contact {
 	 font-family: Palatino, "Palatino LT STD", "Palatino Linotype", "Book Antiqua", Georgia, serif; 
 	font-size: 30px;
-}
-li.lis{
-	text-align: center;
-	 padding-left: 33%;
 }
 #resumeHead{
 	 text-align: center;
