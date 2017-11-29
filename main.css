@@ -59,7 +59,7 @@ a:hover {
 	 font-family: Palatino, "Palatino LT STD", "Palatino Linotype", "Book Antiqua", Georgia, serif; 
 	font-size: 30px;
 }
-.lis{
+li.lis{
 	text-align: center;
 	 padding-left: 33%;
 }
