@@ -19,11 +19,9 @@ ul {
 }
 
 li {
-    float: left;
-    list-style-type: none;
-display: inline-block;
-	margin: 15px;
-	
+    	float: left;
+    	list-style-type: none;
+	display: inline-block;
 	text-align: center;
 }
 
