@@ -62,6 +62,13 @@ a:hover {
 	 font-family: Palatino, "Palatino LT STD", "Palatino Linotype", "Book Antiqua", Georgia, serif; 
 	font-size: 30px;
 }
+.lis{
+	 list-style-type: none;
+	display: inline-block;
+	margin: 15px;
+	 padding: 5px;
+	text-align: center;
+}
 #resumeHead{
 	 text-align: center;
 	 background-color:  #EAECEE;
