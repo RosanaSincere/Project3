@@ -65,7 +65,7 @@ a:hover {
 .lis{
 	 list-style-type: none;
 	display: inline-block;
-	margin: 15px;
+	margin: 0px;
 	 padding: 5px;
 	text-align: center;
 }
