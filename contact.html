@@ -41,7 +41,15 @@
 			};
 			var mapM=new google.maps.Map(document.getElementById("Miami"),mapMiami);
 			var mapC=new google.maps.Map(document.getElementById("Chicago"),mapChicago);
+			
+			var iitLatLng ={lat: 41.835815, lang-87.625413};
+			var iitMarker = new google.maps.Marker({
+				position: iitLatLng,
+				map: mapChicago,
+				title: 'Illinois Institute of Technology';
+			});
 			}
+			
 		</script>
 		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDJHqM95J8cSJBC9UJriQfRssT5n4pDsNo&callback=myMap"></script>
 	</body>
