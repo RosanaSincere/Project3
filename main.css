@@ -14,21 +14,25 @@ ul {
     padding: 5px;
     overflow: hidden;
     border: 1px solid #e7e7e7;
-    background-color: #17202A;
+    background-color: #17202A;	
+}
+ul.lis{
 	text-align: center;
 }
 
 li {
-    	float: center;
+    	
     	list-style-type: none;
 	display: inline-block;
+}
+li.lis{
 	text-align: center;
+	float: center;
 }
 
 li a {
     display: block;
     color: #EAECEE;
-    text-align: center;
     text-decoration: none;
 }
 
